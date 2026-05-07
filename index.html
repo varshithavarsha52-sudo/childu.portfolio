@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Varsh.</div>
+            <button class="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="certification.html">Certification</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="gradient-text">Varsh</span></h1>
+                <div class="subtitle">I am a <span class="typing-text gradient-text"></span><span class="cursor">|</span></div>
+                <p style="color: var(--text-muted); margin-bottom: 2rem; max-width: 500px;">
+                    Welcome to my professional portfolio. I build clean, beautiful, and functional experiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="assets/resume.jpg" target="_blank" class="btn btn-primary">
+                        <i data-lucide="file-text"></i> View Resume
+                    </a>
+                    <a href="assets/resume.jpg" download class="btn btn-outline">
+                        <i data-lucide="download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <img src="assets/varsh.jpg" alt="Varsh Profile" class="hero-image">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Varsh. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
